@@ -1,5 +1,11 @@
-const DcPage = () => {
-  return <h1>DcPage</h1>
-}
+import { HeroList } from '../components'
 
-export default DcPage
+export const DcPage = () => {
+  return (
+    <>
+      <h1>DC Comics</h1>
+      <hr />
+      <HeroList publlisher='DC Comics' />
+    </>
+  )
+}
